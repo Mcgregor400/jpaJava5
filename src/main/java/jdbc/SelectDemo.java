@@ -1,3 +1,7 @@
+package jdbc;
+
+import jdbc.ConnectionDemo;
+
 import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 import java.util.Scanner;

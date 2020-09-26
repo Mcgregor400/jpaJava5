@@ -1,3 +1,9 @@
+package jdbc;
+
+import jdbc.ConnectionDemo;
+import jdbc.CreateTableStatementDemo;
+import jdbc.SelectDemo;
+
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
 import java.sql.ResultSet;
