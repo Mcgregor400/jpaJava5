@@ -1,4 +1,7 @@
+package jdbc;
+
 import jdbc.ConnectionDemo;
+import jdbc.Player;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
