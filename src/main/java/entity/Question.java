@@ -20,18 +20,9 @@ public class Question implements Serializable{
 
     @Column(nullable = false, unique = true)
     private String body;
-
-    @Column(nullable = false)
-    private String option1;
-
-    @Column(nullable = false)
-    private String option2;
-
-    @Column(nullable = false)
-    private String option3;
-
-    @Column(nullable = false)
-    private String option4;
+    //tutaj były wcześniej 4 opcje
+    @Embedded
+    private Option options;
 
     @Column(nullable = false)
     private int validOption;
